@@ -1,6 +1,6 @@
 // Write your JavaScript code here!
 
-const { addDestinationInfo } = require("./scriptHelper");
+// const { addDestinationInfo } = require("./scriptHelper");
 
 window.addEventListener("load", function() {
 
@@ -18,7 +18,7 @@ window.addEventListener("load", function() {
    
    let list = document.getElementById("faultyItems");
    list.style.visibility = "hidden";
-   let form = document.getElementById("testForm");
+   let form = document.querySelector("form");
 
    form.addEventListener("submit", function(event) {
     event.preventDefault();
